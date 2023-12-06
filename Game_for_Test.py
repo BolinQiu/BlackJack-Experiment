@@ -244,3 +244,12 @@ def Simulator(Times, Target):
         else:
             break
     return WIN, LOSS, TIE
+
+
+Times = int(input("Please input game times:"))
+Target = int(input("Please input stand point:"))
+WIN, LOSS, TIE = Simulator(Times, Target)
+print('\n Results:')
+print(f'WIN TIMES:{WIN}')
+print(f'LOSS TIMES:{LOSS}')
+print(f'TIE TIMES:{TIE}')
