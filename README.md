@@ -1,6 +1,5 @@
 # BlackJack-for-Probability-Experiment
 ***
-***
 ## 说明
 * 这个是概率统计课程大作业“基于大数定律和参数估计的21点游戏叫停策略分析”的代码
 * blackjack_rr.py是简单版游戏代码
